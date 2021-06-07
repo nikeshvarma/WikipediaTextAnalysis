@@ -9,7 +9,7 @@ A django framework based web application, which count the top 10 frequent words 
 ### **Installation**
 
 - Extract zip file 
-- Open extracted folder and open **CMD** where **manage.py** files exist
+- Open extracted folder and open **CMD** where **manage.py** file exist
 - Copy paste the following commands listed below one by one
 
 
