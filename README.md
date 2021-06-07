@@ -1,27 +1,47 @@
 # Wikipedia Text Analysis
 
 
-#### **Description** 
+### **Description** 
 A django framework based web application, which count the top 10 frequent words occurs only in **wikipedia** page. Ask users to give wikipedia page URL as input process the URL then show the top 10 frequent words used on that page.
 
 
 
-#### **Installation**
+### **Installation**
 
->1. extract zip file 
->2. open extracted folder and open **CMD** where **manage.py** files exist
->3. copy paste the following commands listed below one by one
-
-
-
-		pip install virtualenv
+- Extract zip file 
+- Open extracted folder and open **CMD** where **manage.py** files exist
+- Copy paste the following commands listed below one by one
 
 
-        	virtualenv venv
+> Install virtualenv module
+
+	pip install virtualenv
 
 
-        	cd venv/Scripts
-        
-        
-		activate
+> Create virtual environment
+
+	virtualenv venv
+
+
+> For a windows system.
+
+	cd venv/Scripts
+	activate
+
+
+> For linux or mac system
+
+	source/bin/active
+
+
+> Install requirements
 		
+	pip install -r requirement.txt
+
+
+> Run django development server
+
+	python manage.py runserver
+
+
+Enter URL on your browser ```http://localhost:8000```
